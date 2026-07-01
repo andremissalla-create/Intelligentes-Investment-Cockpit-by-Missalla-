@@ -1,0 +1,29 @@
+streamlit run app.py
+---
+
+# 📁 8. `docs/development/CODING_GUIDELINES.md`
+
+```md
+# Coding Guidelines
+
+## Prinzipien
+
+- Clean Code
+- kleine Module
+- klare Funktionen
+- keine Business-Logik im UI
+
+---
+
+## Naming
+
+- snake_case für Python
+- klare Funktionsnamen
+
+---
+
+## Struktur
+
+- /modules → Logik
+- /api → Schnittstellen
+- /core → Kernlogik
